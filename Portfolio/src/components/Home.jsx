@@ -7,8 +7,8 @@ function Home() {
     <>
       <div className='lg:h-[100vh] lg:w-[100vw] sm:h-full sm:w-full   lg:flex lg:tracking-wider '>
         <div className='relative lg:h-[100vh] sm:h-[85vw] sm:w-full lg:w-[50vw] text-[#ffff] flex flex-col justify-center items-center ' >
-          <video className="absolute top-0 left-0 sm:w-[100%] sm:h-full lg:w-[50vw] lg:h-[100vh] object-cover" autoPlay muted loop>
-            <source src="./src/assets/bg-img.mp4" type="video/mp4" />
+          <video className="absolute top-0 left-0 sm:w-[100%] sm:h-full lg:w-[50vw] lg:h-[100vh]  object-cover" autoPlay muted loop>
+            <source src="https://videos.pexels.com/video-files/3141206/3141206-uhd_2560_1440_25fps.mp4" type="video/mp4" />
           </video>
           <div className='relative z-10 lg:w-[14vw] sm:w-[30vw] sm:h-[30vw]  lg:h-[14vw] rounded-full '>
             <img className=' lg:w-[14vw] sm:w-[30vw] sm:h-[30vw] lg:h-[14vw] rounded-full object-center object-cover' src="./src/assets/profilepic.jpeg" alt="pic" />
