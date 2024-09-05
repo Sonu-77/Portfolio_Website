@@ -37,6 +37,9 @@ function InsideContentSpace({ data }) {
                     </div>
                 </div>
             </div>
+            <div className='lg:w-[74vw] lg:h-[100vw] bg-[#44f470] lg:flex lg:justify-center  '>
+                <h2 className='lg:mt-[10vw] lg:text-[2vw] roboto-bold-italic uppercase '>The content for each index </h2>
+            </div>
             
 
         </div>

@@ -6,7 +6,8 @@
       "bgcolor": "bg-gradient-to-r from-[#2E3192] to-[#1BFFFF]",
       "ringcolor":"#1BFFFF",
       "from":"#2E3192",
-      "to":"#1BFFFF"
+      "to":"#1BFFFF",
+      "route":"about-me"
   },
   {
       "id": 2,
@@ -15,7 +16,8 @@
       "bgcolor": "bg-gradient-to-r from-[#11998E] to-[#38EF7D]",
       "ringcolor": "#38EF7D",
       "from":"#11998E",
-      "to":"#38EF7D"
+      "to":"#38EF7D",
+      "route":"project"
   },
   {
       "id": 3,
@@ -24,7 +26,8 @@
       "bgcolor":"bg-gradient-to-r from-[#4E65FF] to-[#92EFFD]",
       "ringcolor":"#92EFFD",
       "from":"#4E65FF",
-      "to":"#92EFFD"
+      "to":"#92EFFD",
+      "route":"skills"
   },
   {
       "id": 4,
@@ -33,6 +36,7 @@
       "bgcolor":"bg-gradient-to-r from-[#93A5CF] to-[#E4EfE9]",
       "ringcolor": "#E4EfE9",
       "from":"#93A5CF",
-      "to":"#E4EFE9"
+      "to":"#E4EFE9",
+      "route":"contact"
   }
 ]
