@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import ContentIndex from './ContentIndex';
 
@@ -30,8 +31,10 @@ function Home({data}) {
             }}>Frontend Developer</p>
           </div>
           <div className='relative roboto-regular z-10 flex justify-start items-center lg:gap-[2vw] sm:gap-[4vw] lg:mt-[2vw] sm:mt-[5vw] sm:ml-[5vw] lg:ml-0 lg:mr-[3vw]'>
-            <button className=' lg:w-[8vw] lg:h-[3vw] sm:w-[20vw] sm:h-[7vw] sm:text-[3vw] lg:text-[1vw] rounded-lg bg-red-400 hover:bg-zinc-500 '>Contact me</button>
-            <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="#">See more <FaLongArrowAltRight /> </a></div>
+            <Link to={"/contact"}>
+              <button className=' lg:w-[8vw] lg:h-[3vw] sm:w-[20vw] sm:h-[7vw] sm:text-[3vw] lg:text-[1vw] rounded-lg bg-red-400 hover:bg-zinc-500 '>Contact me</button>
+            </Link>
+            <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="https://github.com/Sonu-77">See more <FaLongArrowAltRight /> </a></div>
           </div>
         </div>
         <div className='lg:h-[100vh] sm:h-[200vw] sm:w-full lg:w-[50vw] flex flex-col bg-[#a12345] '>

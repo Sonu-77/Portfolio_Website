@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { RxCross2 } from "react-icons/rx";
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
@@ -8,7 +7,7 @@ import { VscChromeClose } from "react-icons/vsc";
 function InsideContentSpace({ data }) {
     return (
         <div className='relative '>
-            <div className='lg:h-[47.5vw] lg:w-[25vw] sm:h-[40vw] sm:w-[94vw] fixed sm:ml-[3vw] lg:right-[1vw]   lg:top-[1vw] rounded-xl sm:flex lg:flex lg:flex-col lg:items-center overflow-hidden '
+            <div className='lg:h-[47.5vw] sm:z-10 lg:w-[25vw] sm:h-[40vw] sm:w-[94vw] fixed sm:ml-[3vw] lg:right-[1vw] lg:top-[1vw] rounded-xl sm:flex lg:flex lg:flex-col lg:items-center overflow-hidden '
                 style={{ background: `linear-gradient(to left,${data.from},${data.to})` }}
             >
 
@@ -20,15 +19,15 @@ function InsideContentSpace({ data }) {
                     style={{ background: `linear-gradient(to top,${data.from},${data.to})` }}>
                 </div>
 
-                <div className='lg:h-[40vw] sm:h-[35vw] sm:w-full bg-[#b12345]  lg:w-[22vw] group lg:mt-[2vw] sm:mt-[3vw] lg:border-b-[0.06vw]  lg:border-[#cfd9df] flex flex-col lg:items-end lg:justify-between '>
+                <div className='lg:h-[40vw] sm:h-[35vw] sm:w-full  lg:w-[22vw] group lg:mt-[2vw] sm:mt-[3vw] lg:border-b-[0.06vw]  lg:border-[#cfd9df] flex flex-col lg:items-end lg:justify-between '>
                         <div className='lg:text-[1.6vw] sm:text-[5vw] z-20  lg:h-[3vw] lg:w-[3vw] flex justify-center items-center lg:group-hover:text-[2.4vw] text-[#cfd9df] transition-all duration-300 ease-in-out sm:absolute lg:relative sm:right-[4vw] lg:pl-[5vw] ' >
                     <Link to={"/"}>
                             <VscChromeClose />
                     </Link>
                         </div>
-                    <div className='lg:h-[26vw] lg:w-[10vw] lg:mb-[1vw]  lg:flex lg:flex-col lg:justify-between lg:items-center '>
+                    <div className='lg:h-[26vw] lg:w-[10vw]  lg:mb-[1vw]  lg:flex lg:flex-col lg:justify-between lg:items-center '>
                         <div className='lg:h-[15vw] lg:w-[10vw]  lg:pt-[2vw]  '>
-                            <h2 className='rotate-[270deg] lg:h-[5vw] lg:w-[12vw] lg:pl-1 lg:pt-3 lg:tracking-widest lg:mt-[4vw] uppercase text-[#ffff]  roboto-medium lg:text-[2vw] '>
+                            <h2 className='lg:rotate-[270deg]  sm:absolute lg:h-[5vw] lg:w-[12vw] lg:pl-1 lg:pt-3  lg:tracking-widest lg:mt-[4vw] sm:mt-[10vw] sm:ml-[30vw] lg:ml-0 uppercase text-[#ffff]  roboto-medium lg:text-[2vw] sm:text-[5vw] '>
                                 {data.title}
                             </h2>
                         </div>
@@ -37,7 +36,7 @@ function InsideContentSpace({ data }) {
                         </div>
                     </div>
                 </div>
-                <div className='lg:flex lg:h-[5vw] lg:w-[22vw]  lg:justify-between text-[#fff]'>
+                <div className='lg:flex lg:h-[5vw] lg:w-[22vw] sm:hidden  lg:justify-between text-[#fff]'>
                     <div className='lg:flex lg:justify-center lg:items-center lg:gap-[1vw]'>
                         <FaChevronLeft />
                         <Link to={`/${data.left}`}><h3 className='uppercase lg:text-[1vw] lg:tracking-wide  '>{data.left}</h3></Link>
@@ -48,8 +47,8 @@ function InsideContentSpace({ data }) {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-[74vw] lg:h-[100vw] bg-[#999c9a] lg:flex lg:justify-center  '>
-                <h2 className='lg:mt-[10vw] lg:text-[2vw] roboto-bold-italic uppercase '>The content for {data.title} </h2>
+            <div className='lg:w-[74vw] lg:h-[100vw] sm:w-[94vw] sm:h-[200vw] sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw] bg-[#999c9a] lg:flex lg:justify-center  '>
+                <h2 className='lg:mt-[10vw] sm:mt-[40vw] lg:text-[2vw] roboto-bold-italic uppercase '>The content for {data.title} </h2>
             </div>
 
 
