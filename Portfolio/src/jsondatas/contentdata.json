@@ -3,40 +3,45 @@
       "id": 1,
       "title": "About Me",
       "image": "https://images.pexels.com/photos/356808/pexels-photo-356808.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "bgcolor": "bg-gradient-to-r from-[#2E3192] to-[#1BFFFF]",
       "ringcolor":"#1BFFFF",
       "from":"#2E3192",
       "to":"#1BFFFF",
-      "route":"about-me"
+      "route":"about-me",
+      "left":"home",
+      "right":"project"
   },
   {
       "id": 2,
       "title": "Projects",
       "image": "https://img.freepik.com/free-photo/industrial-designer-digital-art_23-2151585298.jpg?uid=R154999407&ga=GA1.1.1461838641.1724084967&semt=ais_hybrid",
-      "bgcolor": "bg-gradient-to-r from-[#11998E] to-[#38EF7D]",
       "ringcolor": "#38EF7D",
       "from":"#11998E",
       "to":"#38EF7D",
-      "route":"project"
+      "route":"project",
+      "left":"about-me",
+      "right":"skills"
   },
   {
       "id": 3,
       "title": "Skills",
       "image": "https://img.freepik.com/free-vector/vector-paper-light-bulb-with-gears-cogs-business-interaction-concept_1284-42534.jpg?uid=R154999407&ga=GA1.1.1461838641.1724084967&semt=ais_hybrid",
-      "bgcolor":"bg-gradient-to-r from-[#4E65FF] to-[#92EFFD]",
       "ringcolor":"#92EFFD",
       "from":"#4E65FF",
       "to":"#92EFFD",
-      "route":"skills"
+      "route":"skills",
+      "left":"project",
+      "right":"contact"
   },
   {
       "id": 4,
       "title": "Contact",
       "image": "https://images.pexels.com/photos/13734676/pexels-photo-13734676.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "bgcolor":"bg-gradient-to-r from-[#93A5CF] to-[#E4EfE9]",
       "ringcolor": "#E4EfE9",
       "from":"#93A5CF",
       "to":"#E4EFE9",
-      "route":"contact"
+      "route":"contact",
+      "left":"skills",
+      "right":"home"
+
   }
 ]

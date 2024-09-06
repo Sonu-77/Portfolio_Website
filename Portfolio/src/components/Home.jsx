@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import ContentIndex from './ContentIndex';
 
-function Home() {
+function Home({data}) {
   return (
     <>
       <div className='lg:h-[100vh] lg:w-[100vw] sm:h-full sm:w-full   lg:flex lg:tracking-wider '>
@@ -34,8 +34,8 @@ function Home() {
             <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="#">See more <FaLongArrowAltRight /> </a></div>
           </div>
         </div>
-        <div className='lg:h-[100vh] sm:h-[200vw] sm:w-full lg:w-[50vw] flex flex-col '>
-          <ContentIndex></ContentIndex>
+        <div className='lg:h-[100vh] sm:h-[200vw] sm:w-full lg:w-[50vw] flex flex-col bg-[#a12345] '>
+          <ContentIndex data={data}></ContentIndex>
 
         </div>
       </div>
