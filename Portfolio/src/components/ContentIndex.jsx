@@ -15,7 +15,7 @@ function ContentIndex({data}) {
                     return (
 
                         <Link key={data.id} to={`/${data.route}`} >
-                            <div   className={`relative flex lg:h-[208px] sm:h-[50vw] sm:w-[100%] lg:w-[100%] group lg:pl-[2vw] sm:pl-[4vw] justify-start lg:gap-[1vw] sm:gap-[3vw] items-center overflow-hidden`}
+                            <div   className={`relative flex lg:h-[12.36vw] sm:h-[50vw] sm:w-[100%] lg:w-[100%] group lg:pl-[2vw] sm:pl-[4vw] justify-start lg:gap-[1vw] sm:gap-[3vw] items-center overflow-hidden`}
                                 style={{ background: `linear-gradient(to right,${data.from},${data.to})` }}
                             >
                                 <div className='lg:w-[9vw] lg:h-[9vw] sm:w-[27vw] sm:h-[27vw] flex justify-center items-center rounded-full'>

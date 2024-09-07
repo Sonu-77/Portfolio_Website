@@ -26,8 +26,8 @@
       "title": "Skills",
       "image": "https://img.freepik.com/free-vector/vector-paper-light-bulb-with-gears-cogs-business-interaction-concept_1284-42534.jpg?uid=R154999407&ga=GA1.1.1461838641.1724084967&semt=ais_hybrid",
       "ringcolor":"#92EFFD",
-      "from":"#4E65FF",
-      "to":"#92EFFD",
+      "from":"#642B73",
+      "to":"#C6426E",
       "route":"skills",
       "left":"project",
       "right":"contact"
@@ -37,8 +37,8 @@
       "title": "Contact",
       "image": "https://images.pexels.com/photos/13734676/pexels-photo-13734676.jpeg?auto=compress&cs=tinysrgb&w=800",
       "ringcolor": "#E4EfE9",
-      "from":"#93A5CF",
-      "to":"#93C8C6",
+      "from":"#F0F2F0",
+      "to":"#000C40",
       "route":"contact",
       "left":"skills",
       "right":"home"

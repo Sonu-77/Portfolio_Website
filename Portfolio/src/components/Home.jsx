@@ -7,7 +7,7 @@ function Home({data}) {
   return (
     <>
       <div className='lg:h-[100vh] lg:w-[100vw] sm:h-full sm:w-full   lg:flex lg:tracking-wider '>
-        <div className='relative lg:h-[100vh] sm:h-[85vw] sm:w-full lg:w-[50vw] text-[#ffff] flex flex-col justify-center items-center ' >
+        <div className='relative  lg:h-[100vh] sm:h-[85vw] sm:w-full lg:w-[50vw] text-[#ffff] flex flex-col justify-center items-center ' >
           <video className="absolute top-0 left-0 sm:w-[100%] sm:h-full lg:w-[50vw] lg:h-[100vh]  object-cover" autoPlay muted loop>
             <source src="https://videos.pexels.com/video-files/3141206/3141206-uhd_2560_1440_25fps.mp4" type="video/mp4" />
           </video>
@@ -37,7 +37,8 @@ function Home({data}) {
             <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="https://github.com/Sonu-77">See more <FaLongArrowAltRight /> </a></div>
           </div>
         </div>
-        <div className='lg:h-[100vh] sm:h-[200vw] sm:w-full lg:w-[50vw] flex flex-col bg-[#a12345] '>
+        <div className='lg:h-[100vh] sm:h-[200vw] z-0 sm:w-full lg:w-[50vw] flex flex-col justify-between bg-[#a12345] '
+        style={{ background: `linear-gradient(to top,#0f0c29,#302b63,#2C5364)` }}>
           <ContentIndex data={data}></ContentIndex>
 
         </div>
