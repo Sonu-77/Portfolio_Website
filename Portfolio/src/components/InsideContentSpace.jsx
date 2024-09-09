@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
+import About from './contentfiles/About';
 
 function InsideContentSpace({ data }) {
     return (
@@ -47,8 +48,14 @@ function InsideContentSpace({ data }) {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-[74vw] lg:h-[100vw] sm:w-[94vw] sm:h-[200vw] sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw] bg-[#999c9a] lg:flex lg:justify-center  '>
-                <h2 className='lg:mt-[10vw] sm:mt-[40vw] lg:text-[2vw] roboto-bold-italic uppercase '>The content for {data.title} </h2>
+            <div className='lg:w-[100vw] lg:h-[100vw] sm:w-[94vw] sm:h-[200vw] sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw] bg-[#1e2126] lg:flex lg:justify-center  '>
+                <div className='lg:w-[43vw] absolute left-[16vw] lg:h-[80vw]  '>
+
+                    <About>
+
+                    </About>
+                </div>
+
             </div>
 
 
