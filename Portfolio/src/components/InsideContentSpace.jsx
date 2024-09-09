@@ -48,7 +48,8 @@ function InsideContentSpace({ data }) {
                     </div>
                 </div>
             </div>
-            <div className='lg:w-[100vw] lg:h-[100vw] sm:w-[94vw] sm:h-[200vw] sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw] bg-[#1e2126] lg:flex lg:justify-center  '>
+            <div className='lg:w-[100vw] lg:h-[100vw] sm:w-[94vw] sm:h-[200vw] sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw]  lg:flex lg:justify-center  '
+            style={{ background: `linear-gradient(to bottom right,#0d0f0e,#b21f1f,#000000,#43C6AC,#1a2a6c,#0e0839,#450d39,#F27121,#cbb4d4,#000000)` }}>
                 <div className='lg:w-[43vw] absolute left-[16vw] lg:h-[80vw]  '>
 
                     <About>
