@@ -9,6 +9,13 @@
   box-sizing: border-box;
 }
 
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
 
 .lato-thin {
   font-family: "Lato", sans-serif;
