@@ -3,7 +3,9 @@ import React from "react";
 function About() {
   return (
     <>
-      <div className="lg:w-[74vw] lg:h-[100vw] relative">
+      <div className="lg:w-[74vw] lg:h-[120vw] relative"
+      style={{backgroundImage:`url("https://images.pexels.com/photos/9668534/pexels-photo-9668534.jpeg?auto=compress&cs=tinysrgb&w=2400")`,
+      backgroundSize: "cover"}}>
         <div className="lg:w-[43vw] absolute left-[16vw] lg:h-[80vw]  ">
           <div className="lg:mt-[7vw] lg:w-[15vw] lg:h-[5vw]  ">
             <h2 className="text-[2.5vw] font-bold tracking-wider uppercase lg:ml-[1vw]"
