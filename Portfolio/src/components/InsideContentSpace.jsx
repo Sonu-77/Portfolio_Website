@@ -5,6 +5,7 @@ import { FaChevronRight } from "react-icons/fa";
 import { VscChromeClose } from "react-icons/vsc";
 import About from "./contentfiles/About";
 import Projects from "./contentfiles/Projects";
+import Contact from "./contentfiles/Contact";
 
 function InsideContentSpace({ data }) {
   return (
@@ -68,10 +69,11 @@ function InsideContentSpace({ data }) {
           </div>
         </div>
       </div>
-      <div className="lg:w-[74vw] lg:h-[120vw] sm:w-[94vw] sm:h-[200vw]  sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw]  lg:flex lg:justify-center  " 
+      <div className="lg:w-[74vw] lg:h-[50vw] sm:w-[94vw] sm:h-[200vw]  sm:absolute sm:ml-[3vw] lg:relative lg:ml-0 lg:mt-0  sm:mt-[41vw]  lg:flex lg:justify-center  " 
       >
         {/* <About></About> */}
-        <Projects></Projects>
+        {/* <Projects></Projects> */}
+        <Contact></Contact>
       </div>
     </div>
   );
