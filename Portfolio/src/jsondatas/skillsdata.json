@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "title": "HTML",
+        "image": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 2,
+        "title": "CSS",
+        "image": "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 3,
+        "title": "JAVASCRIPT",
+        "image": "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 4,
+        "title": "REACT",
+        "image": "https://cdn.worldvectorlogo.com/logos/react-1.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 5,
+        "title": "NEXT JS",
+        "image": "https://cdn.worldvectorlogo.com/logos/next-js.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 6,
+        "title": "PYTHON",
+        "image": "https://cdn.worldvectorlogo.com/logos/python-5.svg",
+        "descp": "descption of the skills"
+    },
+    {
+        "id": 7,
+        "title": "TABLEAU",
+        "image": "https://cdn.worldvectorlogo.com/logos/tableau-software.svg",
+        "descp": "descption of the skills"
+    }
+
+]

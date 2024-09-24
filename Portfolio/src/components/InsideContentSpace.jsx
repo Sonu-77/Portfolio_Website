@@ -6,6 +6,7 @@ import { VscChromeClose } from "react-icons/vsc";
 import About from "./contentfiles/About";
 import Projects from "./contentfiles/Projects";
 import Contact from "./contentfiles/Contact";
+import Skills from "./contentfiles/Skills";
 
 function InsideContentSpace({ data }) {
   return (
@@ -73,7 +74,8 @@ function InsideContentSpace({ data }) {
       >
         {/* <About></About> */}
         {/* <Projects></Projects> */}
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
+        <Skills></Skills>
       </div>
     </div>
   );
