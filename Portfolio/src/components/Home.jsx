@@ -34,10 +34,10 @@ function Home({data}) {
             <Link to={"/contact"}>
               <button className=' lg:w-[8vw] lg:h-[3vw] sm:w-[20vw] sm:h-[7vw] sm:text-[3vw] lg:text-[1vw] rounded-lg bg-red-400 hover:bg-zinc-500 '>Contact me</button>
             </Link>
-            <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="https://github.com/Sonu-77">See more <FaLongArrowAltRight /> </a></div>
+            <div><a className='flex justify-center items-center lg:text-[1vw] sm:text-[3vw] gap-1 hover:text-[#d67892]' href="https://github.com/Sonu-77" target='_blank'>See more <FaLongArrowAltRight /> </a></div>
           </div>
         </div>
-        <div className='lg:h-[100vh] sm:h-[200vw] z-0 sm:w-full lg:w-[50vw] flex flex-col justify-between bg-[#a12345] '
+        <div className='lg:h-[100vh] sm:h-[200vw] z-0 sm:w-full lg:w-[50vw] flex flex-col justify-between ] '
         style={{ background: `linear-gradient(to top,#0f0c29,#302b63,#2C5364)` }}>
           <ContentIndex data={data}></ContentIndex>
 
