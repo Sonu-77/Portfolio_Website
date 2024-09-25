@@ -22,9 +22,6 @@ function App() {
         <Route path='/:guide' element={<InsideContentWrapper/>}></Route>
       </Routes>
         
-        {/* <InsideContentSpace data={datas}></InsideContentSpace> */}
-        
-        
     </>
   );
 }

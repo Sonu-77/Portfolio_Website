@@ -23,18 +23,22 @@ function About() {
           <div className="lg:w-[14.5vw] lg:h-[0.2vw] rounded-3xl lg:ml-[0.5vw] lg:mb-[4vw] "
             style={{
               background: `linear-gradient(to right,#D3CCE3,#007991,#78ffd6,#E9E4F0)`,
+            }}>
+              <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveLeft "
+              style={{
+              background: `linear-gradient(to right,#ffffff,#0083B0,#00B4DB,#ffffff)`,
             }}></div>
+          </div>
           <div className="flex flex-col gap-[3vw] lg:mt-[2vw]">
             <div
-              className="lg:h-[30.2vw] lg:w-[22vw] ml-[1vw]  rounded-tr-[4vw] relative"
+              className="lg:h-[30.2vw] z-50 lg:w-[22vw] ml-[1vw]  rounded-tr-[4vw] relative"
               style={{
                 background: `linear-gradient(to bottom right,#bdc3c7,#2c3e50,#c31432,#240b36,#f5af19)`,
-              }}
-              >
-              <div className="absolute z-10 rotate-[270deg] top-[14vw] -left-[9vw]">
-                <h2 className="text-[3vw] tracking-wide uppercase dancing-script-font "
+              }}>
+              <div className="absolute z-10 rotate-[270deg] top-[14vw] -left-[10vw]  ">
+                <h2 className="text-[2.9vw] tracking-widest uppercase dancing-script-font "
                   style={{
-                    backgroundImage: 'linear-gradient(to  right, #2E3192,#1BFFFF)',
+                    backgroundImage: 'linear-gradient(to  right, #2E3192,#1BFFFF,#0083B0)',
                     WebkitBackgroundClip: 'text', // For Safari and Chrome
                     backgroundClip: 'text', // For other browsers
                     WebkitTextFillColor: 'transparent', // Makes the text transparent in Webkit-based browsers

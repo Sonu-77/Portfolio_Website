@@ -28,8 +28,13 @@ function Contact() {
           <div className=" absolute lg:top-[11vw] lg:left-[17.5vw] lg:w-[17.3vw] lg:h-[0.2vw] rounded-3xl lg:ml-[0.5vw] lg:mb-[4vw] lg:mt-[0.5vw] "
           style={{
             background: `linear-gradient(to right,#D3CCE3,#007991,#78ffd6,#E9E4F0)`,
-          }}></div>
-          <div>
+          }}>
+            <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveContact "
+              style={{
+              background: `linear-gradient(to right,#ffffff,#0083B0,#00B4DB,#ffffff)`,
+            }}></div>
+          </div>
+          <div className="lg:mt-[4vw]">
             <form
               className="lato-regular sm:flex sm:w-[90vw] lg:w-[30vw]  sm:ml-[5vw] sm:flex-col sm:justify-center sm:items-center sm:gap-[4vw] lg:gap-[1.5vw]"
               action=""
@@ -62,7 +67,7 @@ function Contact() {
                 required
               ></textarea>
               <button
-                className="sm:w-[25vw]  lg:w-[6vw] lg:h-[2vw]  bg-[#f07b27]  sm:text-[#ffff] sm:text-[3.4vw] lg:text-[1.1vw] rounded sm:h-[10vw] uppercase font-bold  outline-none"
+                className="sm:w-[25vw]  lg:w-[6vw] lg:h-[2vw]  bg-[#f07b27] lg:mt-[1vw]  sm:text-[#ffff] sm:text-[3.4vw] lg:text-[1.1vw] rounded sm:h-[10vw] uppercase font-bold  outline-none"
                 type="submit"
                 style={{
                   background: `linear-gradient(to top left,#bdc3c7,#2c3e50,#ba2348)`,
