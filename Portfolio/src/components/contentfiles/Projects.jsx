@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectSlideSection from "./ProjectSlideSection";
+import './About.css'
 
 
 
@@ -30,7 +31,7 @@ function Projects() {
         style={{
           background: `linear-gradient(to right,#D3CCE3,#007991,#764BA2 ,#E9E4F0)`,
         }}>
-        <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveProject "
+        <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveProject custom-shadow-project "
           style={{
             background: `linear-gradient(to right,#ffffff,#0083B0,#00B4DB,#ffffff)`,
           }}></div>

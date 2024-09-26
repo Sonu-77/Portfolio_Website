@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import './About.css'
 
 function Contact() {
   return (
@@ -29,7 +30,7 @@ function Contact() {
           style={{
             background: `linear-gradient(to right,#D3CCE3,#007991,#78ffd6,#E9E4F0)`,
           }}>
-            <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveContact "
+            <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full bg-white absolute  animate-moveContact custom-shadow-about "
               style={{
               background: `linear-gradient(to right,#ffffff,#0083B0,#00B4DB,#ffffff)`,
             }}></div>

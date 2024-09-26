@@ -1,5 +1,6 @@
 import React from 'react'
 import skillsdata from "@/jsondatas/skillsdata.json"
+import './About.css'
 
 
 
@@ -26,7 +27,7 @@ function Skills() {
           style={{
             background: `linear-gradient(to right,#D3CCE3,#007991,#78ffd6,#E9E4F0)`,
           }}>
-            <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full absolute  animate-moveSkills "
+            <div className="lg:w-[01vw] lg:h-[0.2vw] rounded-full absolute  animate-moveSkills custom-shadow-about "
               style={{
               background: `linear-gradient(to right,#ffffff,#0083B0,#00B4DB,#ffffff)`,
             }}></div>
